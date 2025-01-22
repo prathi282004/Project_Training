@@ -6,6 +6,7 @@ public class SimpleInterest {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("To calculate Simple Interest");
+
         System.out.println("Enter principle : ");
         int p = scanner.nextInt();
 
