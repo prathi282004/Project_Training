@@ -1,6 +1,6 @@
 package conditions;
 import java.util.Scanner;
-
+// simple interest
 public class SimpleInterest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
