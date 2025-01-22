@@ -16,6 +16,6 @@ public class SimpleInterest {
         int r = scanner.nextInt();
 
         int simple_interest = (p * n * r) / 100;
-        System.out.println("Simple interest value is : " + simple_interest);
+        System.out.println("Simple interest is : " + simple_interest);
     }
 }
