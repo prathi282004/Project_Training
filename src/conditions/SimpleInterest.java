@@ -5,7 +5,7 @@ public class SimpleInterest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("To calculate simple interest");
+        System.out.println("To calculate Simple Interest");
         System.out.println("Enter principle : ");
         int p = scanner.nextInt();
 
