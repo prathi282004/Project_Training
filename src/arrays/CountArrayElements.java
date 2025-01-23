@@ -1,8 +1,8 @@
 package arrays;
 
 public class CountArrayElements {
-        public static void main(String args[]) {
-            int arr[] = {2, 56, 4, 9, 0, 64, -8};
+        public static void main(String [] args) {
+            double [] arr = {2, 56.3, 4, 9.7, 0, 64, -8};
 
             int positiveCount = 0;
             int negativeCount = 0;
@@ -21,9 +21,9 @@ public class CountArrayElements {
             }
 
 
-            System.out.println("Positive elements in array: " + positiveCount);
-            System.out.println("Negative elements in array: " + negativeCount);
-            System.out.println("Zero elements in array: " + zeroCount);
+            System.out.println("Number of Positive elements in array: " + positiveCount);
+            System.out.println("Number of Negative elements in array: " + negativeCount);
+            System.out.println("Number of Zero elements in array: " + zeroCount);
         }
     }
 

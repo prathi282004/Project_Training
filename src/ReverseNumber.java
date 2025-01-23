@@ -4,7 +4,7 @@ public class ReverseNumber {
     public static void main(String []args){
             Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter value to be reversed : ");
+        System.out.println("Enter number to be reversed : ");
         int num = scanner.nextInt();
 
         int rev = 0;
@@ -15,7 +15,7 @@ public class ReverseNumber {
             rev = rev * 10 + n;
             temp = temp / 10;
         }
-            System.out.println("Reversed value : " + rev);
+            System.out.println("Reversed series : " + rev);
 
     }
 }

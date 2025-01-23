@@ -2,7 +2,7 @@ package arrays;
 import java.util.Arrays;
 public class Sort {
     public static void main(String [] args){
-            int arr[] = {2, 56, 4, 9, 0, 64, -8, 2, 4};
+            double arr[] = {2.5, 56, 4, 9, 0.1, 64, -8, 2, 4, 2};
 
             Arrays.sort(arr);
 

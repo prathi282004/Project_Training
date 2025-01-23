@@ -5,21 +5,21 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter val1 : ");
-        int val1 = scanner.nextInt();
+        double val1 = scanner.nextDouble();
 
         System.out.println("Enter val2 : ");
-        int val2 = scanner.nextInt();
+        double val2 = scanner.nextDouble();
 
-        int add = val1 + val2;
-        System.out.println("Addition of two numbers is : " +add);
+        double add = val1 + val2;
+        System.out.println("Addition of " + val1 + " and " + val2 + " is 2 : " +add);
 
-        int sub = val1 + val2;
-        System.out.println("Subraction of two numbers is : " +sub);
+        double sub = val1 + val2;
+        System.out.println("Subraction of " + val1 + " and " + val2 + " is 2 : " +sub);
 
-        int mul = val1 * val2;
-        System.out.println("Multiplication of two numbers is : " +mul);
+        double mul = val1 * val2;
+        System.out.println("Multiplication of " + val1 + " and " + val2 + " is 2 : " +mul);
 
-        int div = val1 / val2;
-        System.out.println("Division of two numbers is : " +div);
+        double div = val1 / val2;
+        System.out.println("Division of " + val1 + " and " + val2 + " is 2 : "  +div);
     }
 }

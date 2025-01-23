@@ -5,23 +5,27 @@ public class PalindromeCheck {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter string to check whether it is palindrome : ");
-        int num = scanner.nextInt();
+        try {
+            System.out.println("Enter number to check whether it is palindrome : ");
+            int num = scanner.nextInt();
 
-        int rev =0;
-        int temp = num;
+            int rev = 0;
+            int temp = num;
 
-        while(temp != 0){
-            int n = temp % 10;
-            rev = (rev * 10) + n;
-            temp = temp / 10;
+            while (temp != 0) {
+                int n = temp % 10;
+                rev = (rev * 10) + n;
+                temp = temp / 10;
+            }
+            if (rev == num) {
+                System.out.println(+num + " is a Palindrome");
+            } else {
+                System.out.println(+num + " is Not a Palindrome");
+            }
         }
-        if(rev == num){
-            System.out.println("Palindrome");
-        }
 
-        else{
-            System.out.println("Not Palindrome");
+        catch(Exception e){
+            System.out.println("Invalid input!");
         }
 
     }
