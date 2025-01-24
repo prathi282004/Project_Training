@@ -8,7 +8,7 @@ public class NumberPyramid {
 
         System.out.println("Number pyramid triangle");
 
-        System.out.println("Enter n value to print stars : ");
+        System.out.println("Enter n value to print numbers : ");
         int n = scanner.nextInt();
 
         for (int i = 0; i <= n; i++) {
