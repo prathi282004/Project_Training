@@ -4,6 +4,9 @@
 package exercise_1.Loops;
 import java.util.Scanner;
 
+// JR: review done
+//    1) output could be 1 + 2 + 3 + 4 = 10 (if the given number is small like below 10)
+//    2) unnecessary line inside for
 public class SumOfNaturalNumbers_7 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);

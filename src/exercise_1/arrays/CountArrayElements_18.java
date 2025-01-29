@@ -3,6 +3,9 @@
 
 package exercise_1.arrays;
 
+// JR: TODO
+//      1)You should not hard-code the values in the program. change the program to get inputs from the user.
+//      2) fix warnings
 public class CountArrayElements_18 {
     public static void main(String[] args) {
         double[] arr = {2, 56.3, 4, 9.7, 0, 64, -8};

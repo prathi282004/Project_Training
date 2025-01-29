@@ -3,6 +3,7 @@
 
 package exercise_1.Loops;
 import java.util.Scanner;
+// JR: review done - Good
 
 public class Tables_6 {
     public static void main(String [] args){

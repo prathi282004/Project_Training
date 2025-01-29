@@ -1,6 +1,8 @@
 package exercise_1.SimpleCode;//4. *Find the Maximum*
 //   Take three numbers as input and print the largest among them.
 
+// JR : TODO
+//   1) code not indented
 import java.util.Scanner;
 
 public class FindMax_4 {
@@ -16,6 +18,7 @@ public class FindMax_4 {
         System.out.println("Enter val3 : ");
         double val3 = scanner.nextDouble();
 
+        // JR: 2) your logic complex. u should use a max variable to find max
         if(val1 > val2 && val1 > val3) {
             System.out.println(val1 + " is maximum");
         }

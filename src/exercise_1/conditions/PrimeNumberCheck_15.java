@@ -3,6 +3,9 @@
 
 package exercise_1.conditions;
 import java.util.Scanner;
+// JR: TODO - completely wrong program.
+//      You should understand what is prime number?
+//      You have to carefully understand the given program and start writing code.
 
 public class PrimeNumberCheck_15 {
     public static void main(String [] args){

@@ -3,7 +3,8 @@
 
 package exercise_1.SimpleCode;
 import java.util.Scanner;
-
+// JR: TODO
+//      1) unnecessary "2" in the all outputs
 public class Calculator_5 {
     public static void main (String [] args){
         Scanner scanner = new Scanner(System.in);
@@ -17,6 +18,7 @@ public class Calculator_5 {
         double add = val1 + val2;
         System.out.println("Addition of " + val1 + " and " + val2 + " is 2 : " +add);
 
+        //JR: 2) Will it subtract?
         double sub = val1 + val2;
         System.out.println("Subraction of " + val1 + " and " + val2 + " is 2 : " +sub);
 

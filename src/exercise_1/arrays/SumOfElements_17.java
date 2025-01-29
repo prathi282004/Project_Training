@@ -2,7 +2,9 @@
 //    Write a program to find the sum of all elements in an array/list.
 
 package exercise_1.arrays;
-
+// JR: TODO
+//      1)You should not hard-code the values in the program. change the program to get inputs from the user.
+//      2) fix warnings
 public class SumOfElements_17 {
     public static void main(String[] args) {
         double[] arr = {2, 56.4, 4, 9, 0, 64, -8};

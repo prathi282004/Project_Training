@@ -3,7 +3,10 @@
 
 package exercise_1.conditions;
 import java.util.Scanner;
-
+// JR: TODO
+//      1) code not indented
+//      2) Why + symbol beging of all println
+//          TIP: Code should not have any single unnecessary char
 public class LeapYearCheck_11 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
