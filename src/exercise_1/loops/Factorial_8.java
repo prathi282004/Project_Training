@@ -4,7 +4,7 @@
 package exercise_1.loops;
 import java.util.Scanner;
 // JR: review done
-//      1) output coule be " 1 x 2 x 3 x 4 = 24 " (if the given number is small like below 10)
+//      1) output coule be " 1 x 2 x 3 x 4 = 24 " (if the given number is small like below 10) - done
 public class Factorial_8 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
