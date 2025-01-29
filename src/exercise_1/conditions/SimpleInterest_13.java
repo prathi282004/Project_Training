@@ -3,7 +3,7 @@
 
 package exercise_1.conditions;
 import java.util.Scanner;
-// JR: TODO is 'n' means interest & 'r' means duration?
+// JR: TODO is 'n' means interest & 'r' means duration? - yes uncle, I have mentioned them clearly by referring in google
 
 public class SimpleInterest_13 {
     public static void main(String[] args) {

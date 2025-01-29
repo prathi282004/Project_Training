@@ -1,4 +1,4 @@
-package exercise_1.Loops;// *Reverse a Number*
+package exercise_1.loops;// *Reverse a Number*
 //    Write a program to reverse the digits of a number.
 //    Example: Input: 1234, Output: 4321
 
@@ -9,8 +9,8 @@ import java.util.Scanner;
 //      2) Wrong output, if the last char of number is 0,
 //
 public class ReverseNumber_10 {
-    public static void main(String []args){
-            Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter number to be reversed : ");
         int num = scanner.nextInt();
@@ -22,8 +22,13 @@ public class ReverseNumber_10 {
             int n = temp % 10;
             rev = rev * 10 + n;
             temp = temp / 10;
+
+            if (temp == 0) {
+                System.out.println("Reversed number: 0" + rev);
+            }
         }
-            System.out.println("Reversed series : " + rev);
+
+        System.out.println("Reversed series : " + rev);
 
     }
 }

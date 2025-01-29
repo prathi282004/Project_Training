@@ -4,7 +4,7 @@
 package exercise_1.conditions;
 import java.util.Scanner;
 // JR: review done
-//    TODO: explain the logic personally
+//    TODO: explain the logic personally - done
 public class PalindromeCheck_12 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
@@ -22,9 +22,9 @@ public class PalindromeCheck_12 {
                 temp = temp / 10;
             }
             if (rev == num) {
-                System.out.println(+num + " is a Palindrome");
+                System.out.println(num + " is a Palindrome");
             } else {
-                System.out.println(+num + " is Not a Palindrome");
+                System.out.println(num + " is Not a Palindrome");
             }
         }
 

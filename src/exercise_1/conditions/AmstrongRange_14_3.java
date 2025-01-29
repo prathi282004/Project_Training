@@ -20,7 +20,7 @@ public class AmstrongRange_14_3 {
 
             while (temp > 0) {
                 int a = temp % 10;
-                sum += Math.pow(a, length);
+                sum += (int) Math.pow(a, length);
                 temp /= 10;
             }
 

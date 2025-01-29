@@ -1,7 +1,7 @@
 // 9. *Fibonacci Series*
 //   Write a program to print the Fibonacci series up to n terms.
 
-package exercise_1.Loops;
+package exercise_1.loops;
 import java.util.Scanner;
 // JR: review done - Good
 public class Fibanocci_9 {

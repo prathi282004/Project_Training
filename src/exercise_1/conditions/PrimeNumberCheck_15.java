@@ -14,11 +14,11 @@ public class PrimeNumberCheck_15 {
         System.out.println("Enter number to check it is prime number or not : ");
         int num = scanner.nextInt();
 
-        if(num % 2 == 0){
-            System.out.println(+ num + " is Not a Prime number");
+        if(num % 1 == 0 && num % num == 0){
+            System.out.println(num + " is a Prime number");
         }
         else{
-            System.out.println(+ num + " is a Prime number");
+            System.out.println(num + " is Not a Prime number");
         }
     }
 }

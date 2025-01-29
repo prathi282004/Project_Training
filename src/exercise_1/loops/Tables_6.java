@@ -1,7 +1,7 @@
 // 6. *Print Multiplication Table*
 //   Write a program to print the multiplication table of a number entered by the user.
 
-package exercise_1.Loops;
+package exercise_1.loops;
 import java.util.Scanner;
 // JR: review done - Good
 

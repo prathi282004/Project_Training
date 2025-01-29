@@ -5,7 +5,7 @@
 package exercise_1.conditions;
 import java.util.Scanner;
 // JR: TODO
-//      1)not working if we give digits as 23 and number as 153
+//      1)not working if we give digits as 23 and number as 153 - it works uncle!!!
 public class AmstrongNumber_14_1 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
