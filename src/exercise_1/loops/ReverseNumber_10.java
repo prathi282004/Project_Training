@@ -5,7 +5,7 @@ package exercise_1.loops;// *Reverse a Number*
 import java.util.Scanner;
 
 // JR: TODO -
-//      1) Wrong output, if the last few chars of the number is 0, Ex.- 1230000
+//      1) Wrong output, if the last few chars of the number is 0, Ex.- 1230000 - doneee
 //
 public class ReverseNumber_10 {
     public static void main(String[] args) {
@@ -14,20 +14,24 @@ public class ReverseNumber_10 {
         System.out.println("Enter number to be reversed : ");
         int num = scanner.nextInt();
 
-        int rev = 0;
-        int temp = num;
+        String str = Integer.toString(num);
 
-        while (temp != 0) {
-            int n = temp % 10;
-            rev = rev * 10 + n;
-            temp = temp / 10;
+        char[] arr = str.toCharArray();
+        int start = 0;
+        int end = arr.length - 1;
 
-            if (temp == 0) {
-                System.out.println("Reversed number: 0" + rev);
-            }
+        while (start < end) {
+            char temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+
+            start++;
+            end--;
         }
 
-        System.out.println("Reversed series : " + rev);
+        String reversedNum = new String(arr);
+        System.out.println("Reversed Number: " + reversedNum);
 
     }
 }
+
