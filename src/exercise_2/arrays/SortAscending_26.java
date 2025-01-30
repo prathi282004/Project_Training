@@ -1,22 +1,56 @@
 // Program to find index of a given element in an array
 
 package exercise_2.arrays;
-import java.util.Arrays;
-
+import java.util.Scanner;
 
 // TODO: JR-
 //  1)don't hard-code data, it should be get from user
-//  2) use ur own logic for sorting
+//  2) use ur own logic for sorting - doneee
 public class SortAscending_26 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("To sort elements in an array in ascending order");
 
-        int[] arr = {3, 6, 1, 67, 0, -2, 2, 1};
+        // int[] arr = {3, 6, 1, 67, 0, -2, 2, 1};
 
-        Arrays.toString(arr);
+        System.out.print("Enter the size of the array: ");
+        int size = scanner.nextInt();
 
-        Arrays.sort(arr);
+        double[] arr = new double[size];
+        System.out.println("Enter " + size + " elements for the array:");
 
-        System.out.println("Sorted array is : " + Arrays.toString(arr));
+        for (int i = 0; i < size; i++) {
+            arr[i] = scanner.nextDouble();
+            System.out.print("Elements : ");
+        }
+
+        // Arrays.toString(arr);
+
+        // Arrays.sort(arr);
+
+        // System.out.println("Sorted array is : " + Arrays.toString(arr));
+
+        int n = arr.length;
+
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
+
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+
+            if (minIndex != i) {
+                arr[i] = arr[i] + arr[minIndex];
+                arr[minIndex] = arr[i] - arr[minIndex];
+                arr[i] = arr[i] - arr[minIndex];
+            }
+
+        }
+        System.out.println("Sorted Array: ");
+        for (double num : arr) {
+            System.out.print(num + " ");
+        }
     }
 }
