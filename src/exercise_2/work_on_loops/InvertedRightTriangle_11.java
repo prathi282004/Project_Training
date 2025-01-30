@@ -5,7 +5,7 @@
 //**
 //*
 
-package exercise_2.WorkOnLoops;
+package exercise_2.work_on_loops;
 import java.util.Scanner;
 
 // JR: Review done
