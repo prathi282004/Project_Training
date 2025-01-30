@@ -7,6 +7,7 @@ import java.util.Scanner;
 // TODO: JR-
 //  1)don't hard-code data, it should be get from user
 //  2) use ur own logic for sorting - doneee
+
 public class SortDescending_28 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
