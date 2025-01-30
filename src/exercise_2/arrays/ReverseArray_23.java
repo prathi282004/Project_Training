@@ -1,15 +1,27 @@
 // Program to reverse an array
 
 package exercise_2.arrays;
-
 import java.util.Arrays;
+import java.util.Scanner;
 
 
-// TODO: JR- don't hard-code data, it should be get from user
+// TODO: JR- don't hard-code data, it should be get from user - done
 public class ReverseArray_23 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        int[] arr = {3, 6, 1, 67, 0, -2, 2, 1};
+        // int[] arr = {3, 6, 1, 67, 0, -2, 2, 1};
+
+        System.out.print("Enter the size of the array: ");
+        int size = scanner.nextInt();
+
+        double[] arr = new double[size];
+        System.out.println("Enter " + size + " elements for the array:");
+
+        for (int i = 0; i < size; i++) {
+            arr[i] = scanner.nextDouble();
+            System.out.print("Elements : ");
+        }
 
         System.out.println("Array: " + Arrays.toString(arr));
 
@@ -17,7 +29,7 @@ public class ReverseArray_23 {
         int end = arr.length - 1;
 
         while (start < end) {
-            int temp = arr[start];
+            double temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
 

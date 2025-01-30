@@ -1,6 +1,6 @@
 // Print all even numbers between 1 and 100.
 
-package exercise_2.WorkOnLoops;
+package exercise_2.work_on_loops;
 
 // JR: Review done
 public class PrintEvenNumbers_6 {
