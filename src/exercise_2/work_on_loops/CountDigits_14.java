@@ -3,7 +3,7 @@
 package exercise_2.work_on_loops;
 import java.util.Scanner;
 
-// JR: TODO - try logic without converting it to Integer
+// JR: TODO - try logic without converting it to Integer - done
 public class CountDigits_14 {
     public static void main(String [] args){
         Scanner scanner = new Scanner (System.in);
