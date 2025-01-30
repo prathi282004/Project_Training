@@ -1,6 +1,6 @@
 // Generate and print the first n multiples of a number.
 
-package exercise_2.WorkOnLoops;
+package exercise_2.work_on_loops;
 
 import java.util.Scanner;
 // JR: Review done
@@ -16,8 +16,7 @@ public class MultiplesOfNumber_9 {
         System.out.print("Multiples of number " + n + " is : " );
         for(int i = 1; i<=n; i++){
             if (n % i == 0) {
-                int sum =  i;
-                System.out.print("  " + sum);
+                System.out.print("  " + i);
             }
         }
 

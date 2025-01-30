@@ -3,10 +3,8 @@
 package exercise_2.arrays;
 
 import java.util.Scanner;
-import java.util.Arrays;
 
-
-// TODO: JR- don't hard-code data, it should be get from user
+// TODO: JR- don't hard-code data, it should be get from user - done
 
 public class IndexOfElement_25 {
     public static void main(String[] args) {
@@ -14,7 +12,18 @@ public class IndexOfElement_25 {
 
         System.out.println("To print average of elements in an array");
 
-        int[] arr = {3, 6, 1, 67, 0, -2, 2, 1};
+        // int[] arr = {3, 6, 1, 67, 0, -2, 2, 1};
+
+        System.out.print("Enter the size of the array: ");
+        int size = scanner.nextInt();
+
+        double[] arr = new double[size];
+        System.out.println("Enter " + size + " elements for the array:");
+
+        for (int i = 0; i < size; i++) {
+            arr[i] = scanner.nextDouble();
+            System.out.print("Elements : ");
+        }
 
         System.out.println("Enter the element to find its index: ");
         int target = 0;
