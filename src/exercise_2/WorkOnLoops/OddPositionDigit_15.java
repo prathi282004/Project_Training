@@ -3,6 +3,7 @@
 package exercise_2.WorkOnLoops;
 import java.util.Scanner;
 
+//JR TODO: wrong program - understand the problem
 public class OddPositionDigit_15 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

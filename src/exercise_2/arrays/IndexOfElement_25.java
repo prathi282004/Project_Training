@@ -5,6 +5,9 @@ package exercise_2.arrays;
 import java.util.Scanner;
 import java.util.Arrays;
 
+
+// TODO: JR- don't hard-code data, it should be get from user
+
 public class IndexOfElement_25 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

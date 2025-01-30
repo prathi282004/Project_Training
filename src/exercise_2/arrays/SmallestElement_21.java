@@ -2,6 +2,7 @@
 
 package exercise_2.arrays;
 
+// TODO: JR- don't hard-code data, it should be get from user
 public class SmallestElement_21 {
     public static void main(String[] args) {
         System.out.println("To find smallest element in array");

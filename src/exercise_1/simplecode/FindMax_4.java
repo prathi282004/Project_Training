@@ -1,8 +1,6 @@
 package exercise_1.simplecode;//4. *Find the Maximum*
 //   Take three numbers as input and print the largest among them.
 
-// JR : TODO
-//   1) code not indented - done
 
 import java.util.Scanner;
 
@@ -31,6 +29,7 @@ public class FindMax_4 {
 //        }
 
         // using max variable
+        //JR: TODO - don't use built-in function
         double max = Math.max(val1, Math.max(val2, val3));
         System.out.println(max + " is maximum");
     }

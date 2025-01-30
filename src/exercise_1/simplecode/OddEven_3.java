@@ -3,7 +3,6 @@ package exercise_1.simplecode;// 3. *Odd or Even*
 
 import java.util.Scanner;
 // JR: review done
-//      1) Unnecessary empty line between if & else - done
 
 public class OddEven_3 {
     public static void main(String[] args) {

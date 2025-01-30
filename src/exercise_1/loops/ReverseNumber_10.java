@@ -5,8 +5,7 @@ package exercise_1.loops;// *Reverse a Number*
 import java.util.Scanner;
 
 // JR: TODO -
-//      1) code not indented
-//      2) Wrong output, if the last char of number is 0,
+//      1) Wrong output, if the last few chars of the number is 0, Ex.- 1230000
 //
 public class ReverseNumber_10 {
     public static void main(String[] args) {

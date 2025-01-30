@@ -3,8 +3,7 @@
 
 package exercise_1.simplecode;
 import java.util.Scanner;
-// JR: TODO
-//      1) unnecessary "2" in the all outputs - done
+// JR: review done
 public class Calculator_5 {
     public static void main (String [] args){
         Scanner scanner = new Scanner(System.in);

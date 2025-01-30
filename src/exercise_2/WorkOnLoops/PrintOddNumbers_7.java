@@ -2,6 +2,7 @@
 
 package exercise_2.WorkOnLoops;
 
+// JR: Review done
 public class PrintOddNumbers_7 {
     public static void main(String[] args) {
         System.out.println("Even Values from 1 to 100");

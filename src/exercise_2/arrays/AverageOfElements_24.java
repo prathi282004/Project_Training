@@ -3,6 +3,8 @@
 package exercise_2.arrays;
 import java.util.Arrays;
 
+
+// TODO: JR- don't hard-code data, it should be get from user
 public class AverageOfElements_24 {
     public static void main(String[] args) {
 

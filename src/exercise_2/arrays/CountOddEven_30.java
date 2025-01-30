@@ -7,7 +7,7 @@ public class CountOddEven_30 {
         System.out.println("To count odd and even numbers in an array");
 
         int[] arr = {3, 6, 1, 67, 0, -2, 2, 1};
-
+        // TODO: JR: variable name should not start with small char
         int OddCount = 0;
         int EvenCount = 0;
 

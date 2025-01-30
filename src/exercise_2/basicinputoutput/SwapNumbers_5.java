@@ -3,6 +3,7 @@
 package exercise_2.basicinputoutput;
 import java.util.Scanner;
 
+// JR: Review done
 public class SwapNumbers_5 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);

@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 
 // JR: review done - Good
-//     TODO: 1) always check the warning given by IDE and try to fix it. - done
 public class AmstrongNumWithLength_14_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

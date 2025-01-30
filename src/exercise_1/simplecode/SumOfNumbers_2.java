@@ -2,12 +2,6 @@ package exercise_1.simplecode;// *Sum of Two Numbers*
 //   Write a program to take two numbers as input and print their sum.
 
 // JR: review done
-//  1) Output/print should be well-formated/texted like,
-//      Calculating sum of two numbers:
-//          Enter first number:
-//          Enter second number:
-//               done
-//
 import java.util.Scanner;
 public class SumOfNumbers_2 {
     public static void main(String [] args){

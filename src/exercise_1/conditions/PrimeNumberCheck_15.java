@@ -6,6 +6,7 @@ import java.util.Scanner;
 // JR: TODO - completely wrong program.
 //      You should understand what is prime number?
 //      You have to carefully understand the given program and start writing code.
+//      JR: Itr-2: Wrong program
 
 public class PrimeNumberCheck_15 {
     public static void main(String [] args){

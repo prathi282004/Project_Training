@@ -4,6 +4,8 @@ package exercise_2.arrays;
 
 import java.util.Arrays;
 
+
+// TODO: JR- don't hard-code data, it should be get from user
 public class ReverseArray_23 {
     public static void main(String[] args) {
 

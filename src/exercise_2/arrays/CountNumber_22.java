@@ -3,6 +3,8 @@
 package exercise_2.arrays;
 import java.util.Scanner;
 
+// TODO: JR - don't hard-code & fix warning
+
 public class CountNumber_22 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

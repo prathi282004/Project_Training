@@ -5,6 +5,7 @@ package exercise_1.arrays;
 
 import java.util.Scanner;
 
+// TODO: JR: where are you removing from Array. u r just display the duplicate numbers.
 public class Duplicate_19 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

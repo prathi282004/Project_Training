@@ -3,6 +3,10 @@
 package exercise_2.arrays;
 import java.util.Arrays;
 
+
+// TODO: JR-
+//  1)don't hard-code data, it should be get from user
+//  2) use ur own logic for sorting
 public class SortAscending_26 {
     public static void main(String[] args) {
         System.out.println("To sort elements in an array in ascending order");
