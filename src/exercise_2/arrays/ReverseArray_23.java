@@ -4,8 +4,8 @@ package exercise_2.arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// JR : Review DONE
 
-// TODO: JR- don't hard-code data, it should be get from user - done
 public class ReverseArray_23 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

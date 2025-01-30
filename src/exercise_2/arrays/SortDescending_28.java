@@ -4,9 +4,6 @@ package exercise_2.arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// TODO: JR-
-//  1)don't hard-code data, it should be get from user
-//  2) use ur own logic for sorting - doneee
 
 public class SortDescending_28 {
     public static void main(String[] args) {
@@ -50,7 +47,7 @@ public class SortDescending_28 {
 
         int start = 0;
         int end = arr.length - 1;
-
+        // TODO JR: Why u need to sort then reverse it? - discuss with me
         while (start < end) {
             double temp = arr[start];
             arr[start] = arr[end];

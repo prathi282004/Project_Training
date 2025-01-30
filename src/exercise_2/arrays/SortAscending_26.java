@@ -3,9 +3,7 @@
 package exercise_2.arrays;
 import java.util.Scanner;
 
-// TODO: JR-
-//  1)don't hard-code data, it should be get from user
-//  2) use ur own logic for sorting - doneee
+// JR : Review DONE
 
 public class SortAscending_26 {
     public static void main(String[] args) {

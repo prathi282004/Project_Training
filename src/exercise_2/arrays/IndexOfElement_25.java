@@ -4,8 +4,7 @@ package exercise_2.arrays;
 
 import java.util.Scanner;
 
-// TODO: JR- don't hard-code data, it should be get from user - done
-
+// JR : Review DONE
 public class IndexOfElement_25 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

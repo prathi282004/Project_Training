@@ -6,9 +6,7 @@ package exercise_1.conditions;
 
 import java.util.Scanner;
 
-// JR: TODO
-//      1)not working if we give digits as 23 and number as 153 - it works uncle!!!
-//      JR - digit -to- number validation is not done. - doneeeeeee
+// JR: Review DONE
 
 public class AmstrongNumber_14_1 {
     public static void main(String[] args) {
@@ -21,9 +19,14 @@ public class AmstrongNumber_14_1 {
         int num = scanner.nextInt();
 
         int length = String.valueOf(num).length();
-
+        // TODO JR: Input validation should be done at the begining and throw exception - I will explain in person.
+        //  if( n!=length){
+        //      throw new Exception("Invalid input");
+        //   }
+        //
         int sum = 0;
         int temp = num;
+
 
         if (n == length) {
             while (temp > 0) {

@@ -4,9 +4,7 @@ package exercise_1.loops;// *Reverse a Number*
 
 import java.util.Scanner;
 
-// JR: TODO -
-//      1) Wrong output, if the last few chars of the number is 0, Ex.- 1230000 - doneee
-//
+// JR: Review DONE
 public class ReverseNumber_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

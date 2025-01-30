@@ -3,7 +3,7 @@
 package exercise_2.arrays;
 import java.util.Scanner;
 
-// TODO: JR - don't hard-code & fix warning - done
+// JR : Review DONE
 
 public class CountNumber_22 {
     public static void main(String[] args) {

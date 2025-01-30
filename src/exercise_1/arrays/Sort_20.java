@@ -4,9 +4,7 @@
 package exercise_1.arrays;
 
 import java.util.Scanner;
-// JR: TODO
-//      1) You should not hard-code the values in the program. change the program to get inputs from the user.
-//      2) Don't use built-in sort function. Use your own logic to sorting an array. - done
+// JR: Review Done - Good!
 
 public class Sort_20 {
     public static void main(String[] args) {
@@ -35,7 +33,9 @@ public class Sort_20 {
                     minIndex = j;
                 }
             }
-
+            // TODO JR: You can use temp variable to swap the value. It is less complex & risk.
+            //  I think, u did this logic because of you did a program to swap without temp variable.
+            //  That problem is just for improving ur logical thinking, not for real time usage.
             if (minIndex != i) {
                 arr[i] = arr[i] + arr[minIndex];
                 arr[minIndex] = arr[i] - arr[minIndex];
