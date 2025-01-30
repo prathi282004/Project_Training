@@ -7,6 +7,7 @@ import java.util.Scanner;
 // JR: TODO
 //      1) You should not hard-code the values in the program. change the program to get inputs from the user.
 //      2) Don't use built-in sort function. Use your own logic to sorting an array. - done
+
 public class Sort_20 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
