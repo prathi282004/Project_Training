@@ -1,10 +1,9 @@
 package exercise_1.simplecode;//4. *Find the Maximum*
 //   Take three numbers as input and print the largest among them.
 
-
 import java.util.Scanner;
 
-import static java.lang.Math.max;
+// import static java.lang.Math.max;
 
 public class FindMax_4 {
     public static void main(String[] args) {
@@ -28,10 +27,22 @@ public class FindMax_4 {
 //            System.out.println(val3 + " is maximum");
 //        }
 
+        // using built-in function
+        //JR: TODO - don't use built-in function -- u only asked me to do with max variable uncle
+//        double max = Math.max(val1, Math.max(val2, val3));
+//        System.out.println(max + " is maximum");
+
         // using max variable
-        //JR: TODO - don't use built-in function
-        double max = Math.max(val1, Math.max(val2, val3));
-        System.out.println(max + " is maximum");
+        double max = val1;
+
+        if (val2 > max) {
+            max = val2;
+        }
+        if (val3 > max) {
+            max = val3;
+        }
+
+        System.out.println("The maximum number is: " + max);
     }
 }
 

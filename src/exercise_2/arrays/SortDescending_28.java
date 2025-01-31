@@ -32,30 +32,31 @@ public class SortDescending_28 {
             int minIndex = i;
 
             for (int j = i + 1; j < n; j++) {
-                if (arr[j] < arr[minIndex]) {
+                if (arr[j] > arr[minIndex]) {
                     minIndex = j;
                 }
             }
 
+            double temp = 0;
             if (minIndex != i) {
-                arr[i] = arr[i] + arr[minIndex];
-                arr[minIndex] = arr[i] - arr[minIndex];
-                arr[i] = arr[i] - arr[minIndex];
+                temp = arr[i];
+                arr[i] = arr[minIndex];
+                arr[minIndex] = temp;
             }
 
         }
 
-        int start = 0;
-        int end = arr.length - 1;
-        // TODO JR: Why u need to sort then reverse it? - discuss with me
-        while (start < end) {
-            double temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
-
-            start++;
-            end--;
-        }
+//        int start = 0;
+//        int end = arr.length - 1;
+//        // TODO JR: Why u need to sort then reverse it? - discuss with me - doneee
+//        while (start < end) {
+//            double temp = arr[start];
+//            arr[start] = arr[end];
+//            arr[end] = temp;
+//
+//            start++;
+//            end--;
+//        }
 
         System.out.println("Sorted in descending order is : " + Arrays.toString(arr));
     }

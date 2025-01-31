@@ -40,11 +40,13 @@ public class SortAscending_26 {
                 }
             }
 
+            double temp = 0;
             if (minIndex != i) {
-                arr[i] = arr[i] + arr[minIndex];
-                arr[minIndex] = arr[i] - arr[minIndex];
-                arr[i] = arr[i] - arr[minIndex];
+                temp = arr[i];
+                arr[i] = arr[minIndex];
+                arr[minIndex] = temp;
             }
+
 
         }
         System.out.println("Sorted Array: ");

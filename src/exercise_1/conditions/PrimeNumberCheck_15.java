@@ -27,7 +27,7 @@ public class PrimeNumberCheck_15 {
             System.out.println("Prime");
             return;
         }
-        // TODO: JR: how? explain me
+        // TODO: JR: how? explain me - doneee
         if (num % 2 != 0 && num % 3 != 0 && num % 5 != 0 && num % 7 != 0) {
             System.out.println("Prime");
         } else {
