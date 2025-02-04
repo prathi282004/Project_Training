@@ -4,7 +4,7 @@ package exercise_2.arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-
+//JR : Review DONE
 public class SortDescending_28 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -46,17 +46,6 @@ public class SortDescending_28 {
 
         }
 
-//        int start = 0;
-//        int end = arr.length - 1;
-//        // TODO JR: Why u need to sort then reverse it? - discuss with me - doneee
-//        while (start < end) {
-//            double temp = arr[start];
-//            arr[start] = arr[end];
-//            arr[end] = temp;
-//
-//            start++;
-//            end--;
-//        }
 
         System.out.println("Sorted in descending order is : " + Arrays.toString(arr));
     }

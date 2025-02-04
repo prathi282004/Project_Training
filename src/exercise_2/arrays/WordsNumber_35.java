@@ -24,7 +24,7 @@ public class WordsNumber_35 {
             char ch = sentence.charAt(i);
 
             if (ch != ' ') {
-                if ((i == 0) || (sentence.charAt(i - 1) == ' '))
+                if (i == 0 || sentence.charAt(i - 1) == ' ')
                     word_count++;
             }
         }

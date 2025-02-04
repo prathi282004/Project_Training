@@ -5,7 +5,7 @@ package exercise_1.conditions;
 
 import java.util.Scanner;
 
-
+// JR: Review DONE - Very Good!
 public class PrimeNumberCheck_15 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -27,7 +27,6 @@ public class PrimeNumberCheck_15 {
             System.out.println("Prime");
             return;
         }
-        // TODO: JR: how? explain me - doneee
         if (num % 2 != 0 && num % 3 != 0 && num % 5 != 0 && num % 7 != 0) {
             System.out.println("Prime");
         } else {
