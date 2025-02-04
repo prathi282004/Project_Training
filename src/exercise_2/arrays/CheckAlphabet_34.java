@@ -20,7 +20,7 @@ public class CheckAlphabet_34 {
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-
+            //TODO JR: Explain
             if (ch >= 'A' && ch <= 'Z' || ch >= 'a' && ch <= 'z') {
                 System.out.println(str + " contains only characters");
                 break;

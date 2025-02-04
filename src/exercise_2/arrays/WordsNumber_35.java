@@ -24,6 +24,7 @@ public class WordsNumber_35 {
             char ch = sentence.charAt(i);
 
             if (ch != ' ') {
+                //TODO - Always use bracket for any condition
                 if (i == 0 || sentence.charAt(i - 1) == ' ')
                     word_count++;
             }
