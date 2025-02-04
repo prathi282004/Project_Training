@@ -9,8 +9,8 @@ package exercise_2.WorkOnLoops;
 
 import java.util.Scanner;
 
-// TODO JR: Printing not properly if we print more than single digit number - give 13 and see the output. Align space for any digits.
 
+//JR : Review DONE
 public class NumberPyramid_12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -33,9 +33,6 @@ public class Sort_20 {
                     minIndex = j;
                 }
             }
-            // TODO JR: You can use temp variable to swap the value. It is less complex & risk.
-            //  I think, u did this logic because of you did a program to swap without temp variable.
-            //  That problem is just for improving ur logical thinking, not for real time usage. - doneee
             double temp = 0;
             if (minIndex != i) {
                 temp = arr[i];

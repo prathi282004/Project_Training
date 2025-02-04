@@ -19,11 +19,6 @@ public class AmstrongNumber_14_1 {
         int num = scanner.nextInt();
 
         int length = String.valueOf(num).length();
-        // TODO JR: Input validation should be done at the begining and throw exception - I will explain in person.
-        //  if( n!=length){
-        //      throw new Exception("Invalid input");
-        //   }
-        //
         int sum = 0;
         int temp = num;
 

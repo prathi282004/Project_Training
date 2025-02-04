@@ -18,21 +18,6 @@ public class FindMax_4 {
         System.out.println("Enter val3 : ");
         double val3 = scanner.nextDouble();
 
-        // JR: 2) your logic complex. u should use a max variable to find max - done
-//        if (val1 > val2 && val1 > val3) {
-//            System.out.println(val1 + " is maximum");
-//        } else if (val2 > val1 && val2 > val3) {
-//            System.out.println(val2 + " is maximum");
-//        } else {
-//            System.out.println(val3 + " is maximum");
-//        }
-
-        // using built-in function
-        //JR: TODO - don't use built-in function -- u only asked me to do with max variable uncle
-//        double max = Math.max(val1, Math.max(val2, val3));
-//        System.out.println(max + " is maximum");
-
-        // using max variable
         double max = val1;
 
         if (val2 > max) {
