@@ -24,6 +24,7 @@ public class ReplaceSpace_38 {
             if (ch == ' ') {
                 String result = str.replace(" ", "-");
                 System.out.println("Replaced - in place of space is : " + result);
+                break;
             }
         }
 

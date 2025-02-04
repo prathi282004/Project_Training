@@ -23,6 +23,7 @@ public class StringPalindrome_37 {
         while (start < end) {
             if (str.charAt(start) != str.charAt(end)) {
                 System.out.println(str + " is Not Palindrome");
+                return;
             }
             start++;
             end--;

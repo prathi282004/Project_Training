@@ -36,7 +36,7 @@ public class OddPositionDigit_15 {
 
         while (num > 0) {
             int digit = num % 10;
-            if (position % 2 != 0) {
+            if (position % 2 == 0) {
                 sum = sum + digit;
             }
             num = num / 10;
