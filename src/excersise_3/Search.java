@@ -1,4 +1,4 @@
-// 3) Search in a 2D Matrix
+//  Search in a 2D Matrix
 //Problem: Given a matrix where each row and column is sorted in ascending order, write an efficient algorithm to find if a target exists.
 //Example:
 //
@@ -11,7 +11,6 @@
 
 package excersise_3;
 
-// need to fix error. dont know how to resolve it
 import java.util.Scanner;
 
 public class Search {
@@ -25,20 +24,16 @@ public class Search {
 
         for (int[] ints : mat) {
             for (int anInt : ints) {
-                System.out.print(anInt + " ");
-
-                System.out.println();
-
-
                 while (true) {
                     if (anInt == target) {
-                        System.out.println("Target found");
+                        System.out.println("True");
+                        return;
                     } else {
-                        System.out.println("Target not found");
+                        break;
                     }
-                    break;
                 }
             }
         }
+        System.out.println("False");
     }
 }
