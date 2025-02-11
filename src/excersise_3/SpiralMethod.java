@@ -23,7 +23,7 @@ public class SpiralMethod {
 
         int n = 3;
         int top = 0, bottom = n - 1, left = 0, right = n - 1;
-        while (true) {
+        while (top <= bottom && left <= right) {
 
             for (int i = left; i <= right; i++) {
                 System.out.print(mat[top][i] + " ");
