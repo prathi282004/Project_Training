@@ -4,7 +4,7 @@ package exercise_2.work_on_loops;
 
 import java.util.Scanner;
 
-//JR TODO: You did for even sum of position! - done
+//JR - Review DONE
 public class OddPositionDigit_15 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

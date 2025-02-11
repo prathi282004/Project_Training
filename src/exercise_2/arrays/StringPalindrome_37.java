@@ -3,7 +3,7 @@
 package exercise_2.arrays;
 
 import java.util.Scanner;
-//TODO - Did you check the output for no-palindrome string? - done
+//JR - Review DONE
 public class StringPalindrome_37 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
