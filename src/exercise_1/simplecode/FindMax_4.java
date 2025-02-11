@@ -28,7 +28,7 @@ public class FindMax_4 {
 //        }
 
         // using built-in function
-        //JR: TODO - don't use built-in function -- u only asked me to do with max variable uncle
+        //JR: TODO - don't use built-in function -- done
 //        double max = Math.max(val1, Math.max(val2, val3));
 //        System.out.println(max + " is maximum");
 
