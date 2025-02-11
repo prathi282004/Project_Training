@@ -15,25 +15,26 @@ import java.util.Scanner;
 
 public class Search {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         System.out.println("Enter target value : ");
-        int target = scanner.nextInt();
+        int target = new Scanner(System.in).nextInt();
 
         int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
+        if (main(mat, target)) {
+            System.out.println("Target found");
+        } else {
+            System.out.println("Target not found");
+        }
+    }
+
+    public static boolean main(int[][] mat, int target) {
         for (int[] ints : mat) {
             for (int anInt : ints) {
-                while (true) {
-                    if (anInt == target) {
-                        System.out.println("True");
-                        return;
-                    } else {
-                        break;
-                    }
+                if (anInt == target) {
+                    return true;
                 }
             }
         }
-        System.out.println("False");
+        return false;
     }
 }
