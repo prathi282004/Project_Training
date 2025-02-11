@@ -3,7 +3,7 @@ package exercise_1.simplecode;//4. *Find the Maximum*
 
 import java.util.Scanner;
 
-// import static java.lang.Math.max;
+//JR: Review done
 
 public class FindMax_4 {
     public static void main(String[] args) {
@@ -28,7 +28,6 @@ public class FindMax_4 {
 //        }
 
         // using built-in function
-        //JR: TODO - don't use built-in function -- u only asked me to do with max variable uncle
 //        double max = Math.max(val1, Math.max(val2, val3));
 //        System.out.println(max + " is maximum");
 
