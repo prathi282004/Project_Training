@@ -21,16 +21,28 @@ public class Duplicate_19 {
             arr[k] = scanner.nextDouble();
         }
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] == arr[j]) {
-                    System.out.println("Duplicate found: " + arr[i] + " at indices " + i + " and " + j);
+        double[] unique = new double[size];
+        int count = 0;
 
+        for (int i = 0; i < size; i++) {
+            boolean duplicate = false;
+
+            for (int j = 0; j < count; j++) {
+                if (arr[i] == unique[j]) {
+                    duplicate = true;
                     break;
-
                 }
+            }
+
+            if (!duplicate) {
+                unique[count++] = arr[i];
+            }
+        }
+
+        System.out.println("Array after removing duplicates:");
+        for (int i = 0; i < count; i++) {
+            System.out.print(unique[i] + " ");
             }
         }
     }
-}
 
