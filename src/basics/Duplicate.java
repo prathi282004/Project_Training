@@ -5,6 +5,8 @@ package basics;
 
 import java.util.*;
 
+
+//TODO remove it using iterator 
 public class Duplicate {
     public static void main(String[] args) {
         List<Integer> val = Arrays.asList(1, 2, 3, 4, 1, 6, 2, 9);
