@@ -8,6 +8,7 @@ import java.util.*;
 public class MergeLinkedList {
     public static LinkedList<Integer> merge(LinkedList<Integer> list1, LinkedList<Integer> list2) {
         list1.addAll(list2);
+
         Collections.sort(list1);
         return list1;
     }
