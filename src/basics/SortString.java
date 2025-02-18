@@ -4,7 +4,7 @@
 package basics;
 
 import java.util.*;
-
+//JR Review DONE
 public class SortString {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("Mango", "Pomegranate", "Orange", "Cherry", "Plum");
