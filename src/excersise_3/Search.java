@@ -20,14 +20,14 @@ public class Search {
 
         int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
-        if (main(mat, target)) {
+        if (find(mat, target)) {
             System.out.println("Target found");
         } else {
             System.out.println("Target not found");
         }
     }
 
-    public static boolean main(int[][] mat, int target) {
+    public static boolean find(int[][] mat, int target) {
         for (int[] ints : mat) {
             for (int anInt : ints) {
                 if (anInt == target) {

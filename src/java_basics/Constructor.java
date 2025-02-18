@@ -1,4 +1,4 @@
-package JavaBasics;
+package java_basics;
 
 public class Constructor {
     String name;

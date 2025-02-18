@@ -1,4 +1,4 @@
-package JavaBasics;
+package java_basics;
 
 interface Interface {
     void display();
