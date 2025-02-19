@@ -2,21 +2,22 @@ package excercise_4;
 
 import java.util.Scanner;
 
-public class HallowPyramid {
+public class HollowRhombus {
     public static void main(String[] args) {
-        System.out.println("Hallow Pyramid Pattern");
+        System.out.println("Hollow Rhombus Pattern");
         System.out.println("Enter n value to print pattern : ");
 
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n - i; j++) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
 
-            for (int j = 0; j < (2 * i + 1); j++) {
-                if (j == 0 || j == (2 * i) || i == n - 1) {
+
+            for (int j = 1; j <= n; j++) {
+                if (i == 1 || i == n || j == 1 || j == n) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
