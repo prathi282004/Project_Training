@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class XShapedStar {
     public static void main(String[] args) {
-        System.out.println("HourGlass Pattern");
+        System.out.println("X-Shaped Star Pattern");
         System.out.println("Enter n value to print pattern : ");
 
         Scanner scanner = new Scanner(System.in);
