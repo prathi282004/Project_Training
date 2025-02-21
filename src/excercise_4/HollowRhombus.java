@@ -2,6 +2,7 @@ package excercise_4;
 
 import java.util.Scanner;
 
+//JR: Review Done - Good
 public class HollowRhombus {
     public static void main(String[] args) {
         System.out.println("Hollow Rhombus Pattern");
