@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HollowDiamond {
     public static void main(String[] args) {
-        System.out.println("Diamond with Number Pattern");
+        System.out.println("Hollow Diamond Pattern");
         System.out.println("Enter n value to print pattern : ");
 
         Scanner scanner = new Scanner(System.in);
@@ -24,7 +24,6 @@ public class HollowDiamond {
             }
             System.out.println();
         }
-
 
         for (int i = n - 1; i >= 1; i--) {
             for (int j = 0; j < n - i; j++) {

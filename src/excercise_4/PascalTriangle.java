@@ -26,6 +26,7 @@ public class PascalTriangle {
     }
 }
 
+
 //            if (i >= 1 && i <= 9) {
 //                one_digit(i);
 //            } else if (i >= 10 && i <= 99) {
