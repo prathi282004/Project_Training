@@ -2,8 +2,6 @@ package patterns;
 
 import java.util.Scanner;
 
-//JR: Review Done - Good
-//TODO format not proper if we give 2 & more digits
 public class SpiralNumber {
     public static void main(String[] args) {
         System.out.println("Spiral Number Pattern");

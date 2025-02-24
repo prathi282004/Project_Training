@@ -2,7 +2,6 @@ package patterns;
 
 import java.util.Scanner;
 
-//JR: Review Done - Good
 public class NumberPyramid {
     public static void main(String[] args) {
         System.out.println("Number Pyramid Pattern");
