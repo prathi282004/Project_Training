@@ -3,8 +3,6 @@
 package exercise_2.work_on_loops;
 import java.util.Scanner;
 
-
-//JR : Review DONE
 public class CountDigits_14 {
     public static void main(String [] args){
         Scanner scanner = new Scanner (System.in);
@@ -14,10 +12,6 @@ public class CountDigits_14 {
         System.out.println("Enter digits to count number of digits : ");
         int n = scanner.nextInt();
 
-//        int len = Integer.toString(n).length();
-//        System.out.println("Number of digits are : " + len);
-
-//    without converting it to Integer
         int count = 0;
         while (n != 0) {
             n = n / 10;

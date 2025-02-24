@@ -4,7 +4,6 @@
 package exercise_1.conditions;
 
 import java.util.Scanner;
-// JR: Review DONE
 
 public class SimpleInterest_13 {
     public static void main(String[] args) {

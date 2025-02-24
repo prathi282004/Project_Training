@@ -1,23 +1,23 @@
-package excercise_4;
+package patterns;
 
 import java.util.Scanner;
 
-public class HourGlass {
+public class DiamondNumber {
     public static void main(String[] args) {
-        System.out.println("HourGlass Pattern");
+        System.out.println("Diamond with Number Pattern");
         System.out.println("Enter n value to print pattern : ");
 
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        for (int i = n; i >= 1; i--) {
+        for (int i = 1; i <= n; i++) {
             for (int j = 0; j < n - i; j++) {
                 System.out.print(" ");
             }
 
             for (int j = 0; j < (2 * i - 1); j++) {
-                if (j == 0 || j == (2 * i - 2) || i == n ) {
-                    System.out.print("*");
+                if (j == 0 || j == (2 * i - 2)) {
+                    System.out.print(i);
                 } else {
                     System.out.print(" ");
                 }
@@ -25,14 +25,15 @@ public class HourGlass {
             System.out.println();
         }
 
-        for (int i = 2; i <= n; i++) {
+
+        for (int i = n - 1; i >= 1; i--) {
             for (int j = 0; j < n - i; j++) {
                 System.out.print(" ");
             }
 
             for (int j = 0; j < (2 * i - 1); j++) {
-                if (j == 0 || j == (2 * i - 2) || i == n) {
-                    System.out.print("*");
+                if (j == 0 || j == (2 * i - 2)) {
+                    System.out.print(i);
                 } else {
                     System.out.print(" ");
                 }

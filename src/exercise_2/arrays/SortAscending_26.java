@@ -3,8 +3,6 @@
 package exercise_2.arrays;
 import java.util.Scanner;
 
-// JR : Review DONE
-
 public class SortAscending_26 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -23,12 +21,6 @@ public class SortAscending_26 {
             System.out.print("Elements : ");
         }
 
-        // Arrays.toString(arr);
-
-        // Arrays.sort(arr);
-
-        // System.out.println("Sorted array is : " + Arrays.toString(arr));
-
         int n = arr.length;
 
         for (int i = 0; i < n - 1; i++) {
@@ -46,8 +38,6 @@ public class SortAscending_26 {
                 arr[i] = arr[minIndex];
                 arr[minIndex] = temp;
             }
-
-
         }
         System.out.println("Sorted Array: ");
         for (double num : arr) {

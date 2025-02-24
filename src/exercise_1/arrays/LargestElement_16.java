@@ -3,7 +3,7 @@
 
 package exercise_1.arrays;
 import java.util.Scanner;
-// JR: review done - Good
+
 public class LargestElement_16 {
     public static void main(String [] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,8 +1,8 @@
-package exercise_1.simplecode;// 3. *Odd or Even*
+// 3. *Odd or Even*
 //   Write a program to check whether a given number is odd or even.
 
+package exercise_1.simplecode;
 import java.util.Scanner;
-// JR: review done
 
 public class OddEven_3 {
     public static void main(String[] args) {

@@ -3,7 +3,6 @@
 package exercise_2.arrays;
 import java.util.Scanner;
 
-// JR : Review DONE
 public class SmallestElement_21 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

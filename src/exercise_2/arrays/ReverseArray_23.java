@@ -4,8 +4,6 @@ package exercise_2.arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// JR : Review DONE
-
 public class ReverseArray_23 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

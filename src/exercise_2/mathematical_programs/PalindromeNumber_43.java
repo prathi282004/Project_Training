@@ -4,9 +4,8 @@ package exercise_2.mathematical_programs;
 
 import java.util.Scanner;
 
-//JR: Review DONE
 public class PalindromeNumber_43 {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         try {
@@ -26,9 +25,7 @@ public class PalindromeNumber_43 {
             } else {
                 System.out.println(num + " is Not a Palindrome");
             }
-        }
-
-        catch(Exception e){
+        } catch (Exception e) {
             System.out.println("Invalid input!");
         }
 

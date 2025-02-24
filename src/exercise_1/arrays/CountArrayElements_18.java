@@ -5,7 +5,6 @@ package exercise_1.arrays;
 
 import java.util.Scanner;
 
-// JR: review done
 public class CountArrayElements_18 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -37,11 +36,8 @@ public class CountArrayElements_18 {
             }
         }
 
-
         System.out.println("Number of Positive elements in array: " + positiveCount);
         System.out.println("Number of Negative elements in array: " + negativeCount);
         System.out.println("Number of Zero elements in array: " + zeroCount);
     }
 }
-
-

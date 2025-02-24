@@ -2,8 +2,6 @@ package exercise_1.conditions;
 
 import java.util.Scanner;
 
-// JR: review done - Good
-
 public class AmstrongRange_14_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

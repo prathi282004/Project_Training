@@ -2,8 +2,6 @@ package exercise_1.conditions;
 
 import java.util.Scanner;
 
-
-// JR: review done - Good
 public class AmstrongNumWithLength_14_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,7 +13,6 @@ public class AmstrongNumWithLength_14_2 {
 
         int sum = 0;
         int temp = num;
-
 
         while (temp > 0) {
             int a = temp % 10;

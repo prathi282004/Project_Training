@@ -1,10 +1,10 @@
-package exercise_1.loops;// *Reverse a Number*
+// *Reverse a Number*
 //    Write a program to reverse the digits of a number.
 //    Example: Input: 1234, Output: 4321
 
+package exercise_1.loops;
 import java.util.Scanner;
 
-// JR: Review DONE
 public class ReverseNumber_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

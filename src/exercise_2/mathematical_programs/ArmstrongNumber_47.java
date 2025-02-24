@@ -3,7 +3,7 @@
 package exercise_2.mathematical_programs;
 
 import java.util.Scanner;
-//JR: Review DONE
+
 public class ArmstrongNumber_47 {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);

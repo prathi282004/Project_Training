@@ -3,7 +3,7 @@
 package exercise_2.work_on_loops;
 
 import java.util.Scanner;
-// JR: Review done
+
 public class SumOfDigits_13 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
@@ -13,7 +13,6 @@ public class SumOfDigits_13 {
 
         int sum = 0;
         int temp = num;
-
 
         while (temp > 0) {
             int a = temp % 10;

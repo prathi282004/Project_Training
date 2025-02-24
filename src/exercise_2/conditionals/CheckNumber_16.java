@@ -4,7 +4,6 @@ package exercise_2.conditionals;
 
 import java.util.Scanner;
 
-// JR : review done
 public class CheckNumber_16 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

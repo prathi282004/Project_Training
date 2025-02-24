@@ -24,10 +24,7 @@ public class RemoveElement_29 {
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == num) {
-                //int arr_new.remove(i);
-                // remove elements .i
                 System.out.println("The index of element " + num + " is in the index of : " + i);
-                //arr.remove(Double.valueOf(num));
             } else {
                 System.out.println("Element " + num + " is not found in an array");
             }

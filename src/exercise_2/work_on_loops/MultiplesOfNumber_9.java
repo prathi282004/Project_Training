@@ -3,7 +3,7 @@
 package exercise_2.work_on_loops;
 
 import java.util.Scanner;
-// JR: Review done
+
 public class MultiplesOfNumber_9 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
@@ -19,6 +19,5 @@ public class MultiplesOfNumber_9 {
                 System.out.print("  " + i);
             }
         }
-
     }
 }

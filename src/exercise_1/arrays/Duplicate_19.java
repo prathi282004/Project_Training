@@ -5,7 +5,6 @@ package exercise_1.arrays;
 
 import java.util.Scanner;
 
-// TODO: JR: where are you removing from Array. u r just display the duplicate numbers.-- done
 public class Duplicate_19 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -24,28 +23,6 @@ public class Duplicate_19 {
             }
             arr[k] = scanner.nextDouble();
         }
-
-
-        // another method using boolean
-
-//        double[] unique = new double[size];
-//        int count = 0;
-//
-//        for (int i = 0; i < size; i++) {
-//            boolean duplicate = false;
-//
-//            for (int j = 0; j < count; j++) {
-//                if (arr[i] == unique[j]) {
-//                    duplicate = true;
-//                    break;
-//                }
-//            }
-//
-//            if (!duplicate) {
-//                unique[count++] = arr[i];
-//            }
-//        }
-
 
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {

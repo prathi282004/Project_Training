@@ -20,23 +20,12 @@ public class OddPositionDigit_15 {
             System.out.println("Invalid input!");
         }
 
-        // built-in function
-
-//        String str = Integer.toString(num);
-//
-//        int sum = 0;
-//
-//        for (int i = 0; i < str.length(); i += 2) {
-//            sum = sum + Character.getNumericValue(str.charAt(i));
-//        }
-//        System.out.println(sum);
-
         int sum = 0;
         int position = 0;
 
         while (num > 0) {
             int digit = num % 10;
-            if (position % 2 == 0) {
+            if (position % 2 != 0) {
                 sum = sum + digit;
             }
             num = num / 10;

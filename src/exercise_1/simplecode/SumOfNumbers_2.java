@@ -1,8 +1,9 @@
-package exercise_1.simplecode;// *Sum of Two Numbers*
+// *Sum of Two Numbers*
 //   Write a program to take two numbers as input and print their sum.
 
-// JR: review done
+package exercise_1.simplecode;
 import java.util.Scanner;
+
 public class SumOfNumbers_2 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);

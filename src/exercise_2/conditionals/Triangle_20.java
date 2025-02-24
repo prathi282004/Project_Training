@@ -4,7 +4,6 @@ package exercise_2.conditionals;
 
 import java.util.Scanner;
 
-// JR: review DONE
 public class Triangle_20 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

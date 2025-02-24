@@ -4,7 +4,6 @@
 package exercise_1.arrays;
 
 import java.util.Scanner;
-// JR: Review Done - Good!
 
 public class Sort_20 {
     public static void main(String[] args) {
@@ -39,7 +38,6 @@ public class Sort_20 {
                 arr[i] = arr[minIndex];
                 arr[minIndex] = temp;
             }
-
         }
         System.out.println("Sorted Array: ");
         for (double num : arr) {
@@ -47,21 +45,3 @@ public class Sort_20 {
         }
     }
 }
-
-// built-in function usage
-
-//        for (int num : arr) {
-//        System.out.print(num + " ");
-//    }
-
-//        Arrays.sort(arr);
-//
-//        System.out.print("Sorted array: ");
-//        for (double v : arr) {
-//            System.out.print(v + " , ");
-
-
-
-
-
-

@@ -4,7 +4,6 @@ package exercise_2.arrays;
 
 import java.util.Scanner;
 
-// JR: Review DONE
 public class TwoStringEqual_31 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

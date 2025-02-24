@@ -4,7 +4,6 @@ package exercise_2.arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-//JR : Review DONE
 public class SortDescending_28 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -22,9 +21,6 @@ public class SortDescending_28 {
             arr[i] = scanner.nextDouble();
 
         }
-
-//        Arrays.toString(arr);
-//        Arrays.sort(arr);
 
         int n = arr.length;
 
@@ -45,8 +41,6 @@ public class SortDescending_28 {
             }
 
         }
-
-
         System.out.println("Sorted in descending order is : " + Arrays.toString(arr));
     }
 }

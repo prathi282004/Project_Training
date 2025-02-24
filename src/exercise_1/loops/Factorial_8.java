@@ -3,7 +3,7 @@
 
 package exercise_1.loops;
 import java.util.Scanner;
-// JR: review done
+
 public class Factorial_8 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);

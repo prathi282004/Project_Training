@@ -1,4 +1,4 @@
-package exercise_2.work_on_loops;
+package patterns;
 
 import java.util.Scanner;
 

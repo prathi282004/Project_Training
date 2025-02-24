@@ -1,4 +1,4 @@
-package excercise_4;
+package patterns;
 import java.util.Scanner;
 
 public class HollowSquare {

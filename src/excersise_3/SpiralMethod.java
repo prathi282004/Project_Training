@@ -13,15 +13,18 @@ public class SpiralMethod {
         System.out.println("Given a 2D matrix, return all elements in spiral order (clockwise)");
 
         int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-
+        int size=0;
         for (int[] ints : mat) {
             for (int anInt : ints) {
                 System.out.print(anInt + " ");
+                size++;
             }
             System.out.println();
         }
+        int[] result=new int[size];
 
-        int n = 3;
+
+        int n = mat[0].length;
         int top = 0, bottom = n - 1, left = 0, right = n - 1;
         while (top <= bottom && left <= right) {
 

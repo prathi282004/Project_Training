@@ -2,7 +2,7 @@
 
 package exercise_2.basicinputoutput;
 import java.util.Scanner;
-// JR: Review done
+
 public class Temperature_4 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
