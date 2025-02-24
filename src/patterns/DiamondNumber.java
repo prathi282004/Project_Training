@@ -2,6 +2,8 @@ package patterns;
 
 import java.util.Scanner;
 
+//JR: Review Done - Good
+
 public class DiamondNumber {
     public static void main(String[] args) {
         System.out.println("Diamond with Number Pattern");
